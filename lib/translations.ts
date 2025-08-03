@@ -1,3 +1,5 @@
+import { useAppStore } from '../lib/store';
+
 export const translations = {
   en: {
     // Navigation
