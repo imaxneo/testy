@@ -182,7 +182,7 @@ export default function OnboardingPage() {
                     className={`p-4 rounded-lg border cursor-pointer transition-all ${
                       selectedGoals.includes(goal.id)
                         ? 'border-primary bg-primary/5'
-                        : 'border-border hover:border-primary/50'
+                        : 'border hover:border-primary/50'
                     }`}
                     onClick={() => handleGoalToggle(goal.id)}
                   >
@@ -212,7 +212,7 @@ export default function OnboardingPage() {
                     className={`p-4 rounded-lg border cursor-pointer transition-all text-center ${
                       selectedBusinessType === type.id
                         ? 'border-primary bg-primary/5'
-                        : 'border-border hover:border-primary/50'
+                        : 'border hover:border-primary/50'
                     }`}
                     onClick={() => setSelectedBusinessType(type.id)}
                   >
